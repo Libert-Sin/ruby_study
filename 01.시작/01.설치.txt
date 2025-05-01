@@ -1,0 +1,40 @@
+# rvm 설치
+curl -L https://get.rvm.io | bash -s stable
+
+#gpg키 없을경우
+gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+
+
+
+# rvm 업데이트
+rvm get stable
+
+# 루비 버전 정보 업데이트
+rvm reload
+rvm get master
+
+# 빌드 라이버러리 설치
+rvm autolibs packages
+# 에러 시 rc 파일 확인
+# export PATH="$HOME/.gem/bin:$PATH"
+# export PATH="$PATH:$HOME/.rvm/bin"
+
+
+# 설치 가능한 버전 확인
+rvm list known
+
+# 원하는 버전 설치
+rvm install 3.4.3
+
+# 사용 버전 지정
+rvm use 3.4.3
+# 에러시 rc 파일 확인
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+
+
+# 기본 사용 버전 지정
+rvm use --default 3.4.3
+
+# 버전 확인
+ruby -v

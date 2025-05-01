@@ -1,0 +1,16 @@
+    클래스 이름:     String          ActiveRecord    MyClass
+    상수 이름:      FEET_PER_MILE   DEBUG
+    지역 변수:      name            fish_and_chips  x       axis        thx1618     _x  _13
+    인스턴스 변수:   @name           @point_1        @X      @_          @plan4
+-   클래스 변수:     @@total         @@symtab       @@N      @@x_pos     @@SINGLE
+--  전역 변수:      $debug          $CUSTOMER       $_      $plan2      $Global
+
+
+    클래스이름·모듈이름· 대문자로 시작. 카멜 케이스.
+    상수: 대문자만 사용.
+
+※이름의 첫 글자가 용도를 결정.
+    지역 변수·메서드 매개 변수·메서드이름: 소문자 또는 _로 시작. 스네이크 케이스.
+    인스턴스 변수: @로 시작
+-   클래스 변수: @@로 시작
+--  전역 변수: $로 시작

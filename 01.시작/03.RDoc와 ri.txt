@@ -1,0 +1,8 @@
+# 웹 Rdoc
+www.ruby-doc.org
+rubydoc.info
+
+# ri 설치
+rvm docs generate
+
+
